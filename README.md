@@ -20,10 +20,6 @@ tmux attach-session -t server_demo
 <C-o> + 1     (按下Ctr+o+1)
 ```
 
-```
-<C-o> + k     (按下Ctr+o+k)
-```
-
 ### 將資料庫檔案更新
 
 ```
@@ -40,10 +36,6 @@ python Create_Table.py
 
 ```
 <C-o> + 1   (<C-o>的意思是按下ctr+o)
-```
-
-```
-<C-o> + k
 ```
 
 ```
