@@ -17,7 +17,7 @@ ssh <User_Name>@<Server_Ip>
 ```
 
 ```
-<C-o> + k
+<C-o> + k     (按下Ctr+o+k)
 ```
 
 ```
