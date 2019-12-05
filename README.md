@@ -44,6 +44,22 @@ tmux attach-session -t server_demo
 sudo python server8800.py
 ```
 
+```
+sudo python server8811.py
+```
+
+```
+sudo python server8822.py
+```
+
+```
+sudo python server8833.py
+```
+
+```
+sudo python server8844.py
+```
+
 ### 將資料庫檔案更新
 
 ```
