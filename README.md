@@ -35,7 +35,7 @@ python Create_Table.py
 ### 開啟分流器
 
 ```
-<C-o> + 1   (<C-o>的意思是按下ctr+o)
+<C-o> + 1
 ```
 
 ```
