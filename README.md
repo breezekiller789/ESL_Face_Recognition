@@ -10,6 +10,16 @@ ssh <User_Name>@<Server_Ip>
 
 為了方便demo，使用tmux來同時開啟多個bash，這樣一來就不用一直ssh進伺服器來操作
 
+首先確保自己在tmux在第一個頁面，請輸入以下指令。(<C-o>代表ctr+o)
+
+```
+<C-o> + 1
+```
+
+```
+<C-o> + k
+```
+
 ```
 tmux attach-session -t server_demo
 ```
@@ -27,8 +37,6 @@ python Create_Table.py
 ```
 
 ### 開啟分流器
-
-首先確保自己在tmux在第一個頁面，輸入以下指令(<C-o>代表ctr+o)
 
 ```
 <C-o> + 1
