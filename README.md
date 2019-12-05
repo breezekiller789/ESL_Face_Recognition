@@ -25,7 +25,11 @@ tmux attach-session -t server_demo
 輸入以下指令來切換視窗，或者使用滑鼠點擊視窗來執行程式
 
 ```
-<C-o> + j
+<C-o> + j   （往下移動cursor)
+```
+
+```
+<C-o> + k    (往上移動cursor)
 ```
 
 視窗切到下方後，便可開啟第一隻伺服器
@@ -33,6 +37,7 @@ tmux attach-session -t server_demo
 ```
 sudo python server8800.py
 ```
+
 若需開啟多個伺服器，就將視窗切到tmux第二個頁面和第三個頁面，分別重複上面步驟來開啟伺服器。
 
 ### 將資料庫檔案更新
