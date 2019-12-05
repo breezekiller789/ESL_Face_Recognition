@@ -16,11 +16,7 @@ ssh <User_Name>@<Server_Ip>
 tmux attach-session -t server_demo
 ```
 
-```
-<C-o> + 1     (按下Ctr+o+1)
-```
-
-### 開啟後端人臉辨識伺服器
+### 熟悉tmux指令
 
 輸入以下指令來切換視窗，或者使用滑鼠點擊視窗來執行程式
 
@@ -32,13 +28,21 @@ tmux attach-session -t server_demo
 <C-o> + k    (往上移動cursor)
 ```
 
-視窗切到下方後，便可開啟第一隻伺服器
+```
+<C-o> + h    (往左移動cursor)
+```
+
+```
+<C-o> + l    (往右移動cursor)
+```
+
+### 開啟人臉辨識伺服器
+
+視窗切到目標位置後，便可開啟伺服器
 
 ```
 sudo python server8800.py
 ```
-
-若需開啟多個伺服器，就將視窗切到tmux第二個頁面和第三個頁面，分別重複上面步驟來開啟伺服器。
 
 ### 將資料庫檔案更新
 
@@ -55,16 +59,10 @@ python Create_Table.py
 ### 開啟分流器
 
 ```
-<C-o> + 1
-```
-
-```
 sudo python Balance.py
 ```
 
 之後輸入使用者密碼（因為憑證放在網站根目錄底下，必須要root權限才能進入存取）
-
-
 
 ### 開啟Chrome並輸入以下URL
 
