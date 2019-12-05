@@ -57,51 +57,11 @@ sudo python Balance.py
 ```
 sudo python server8800.py
 ```
+若需開啟多個伺服器，就將視窗切到第二個頁面和第三個頁面，分別重複上面步驟來開啟伺服器。
 
-切換到第二個視窗
-
-```
-<C-o> + 2
-```
-
-```
-<C-o> + k
-```
-
-```
-sudo python server8811.py
-```
-
-```
-<C-o> + j
-```
-
-```
-sudo python server8822.py
-```
-
-```
-<C-o> + 3
-```
-
-```
-<C-o> + k
-```
-
-```
-sudo python server8833.py
-```
-
-```
-<C-o> + j
-```
-
-```
-sudo python server8844.py
-```
 ### 開啟Chrome並輸入以下URL
 
-連向分流器
+連向分流器(開在port 9000)
 
 ```
 https://esldlep.cs.ccu.edu.tw:9000/
