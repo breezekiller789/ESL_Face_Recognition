@@ -13,15 +13,15 @@ ssh <User_Name>@<Server_Ip>
 首先確保自己在tmux在第一個頁面，請輸入以下指令。
 
 ```
+tmux attach-session -t server_demo
+```
+
+```
 <C-o> + 1     (按下Ctr+o+1)
 ```
 
 ```
 <C-o> + k     (按下Ctr+o+k)
-```
-
-```
-tmux attach-session -t server_demo
 ```
 
 ### 將資料庫檔案更新
