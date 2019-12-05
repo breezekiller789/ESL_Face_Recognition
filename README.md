@@ -52,7 +52,7 @@ sudo python Balance.py
 <C-o> + j
 ```
 
-這時視窗會切到下方，便可開啟第一隻伺服器
+視窗切到下方後，便可開啟第一隻伺服器
 
 ```
 sudo python server8800.py
