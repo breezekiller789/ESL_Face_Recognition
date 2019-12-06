@@ -95,3 +95,13 @@ https://esldlep.cs.ccu.edu.tw:9000/
 ```
 <C-o> + d     (d是detach的意思）
 ```
+
+# 若有發現後端有重複的port被使用的現象，請將按照以下步驟執行
+
+```
+python Refresh_Table.py
+```
+
+```
+sudo python Balance.py
+```
