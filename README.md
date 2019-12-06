@@ -89,3 +89,9 @@ https://esldlep.cs.ccu.edu.tw:9000/
 ```
 
 按下Enter之後，即可開始進行辨識。
+
+### 離開tmux
+
+```
+<C-o> + d     (d是detach的意思）
+```
